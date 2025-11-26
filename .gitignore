@@ -1,0 +1,8 @@
+# 用户特定配置
+light_config.json
+
+# 日志文件
+*.log
+
+# macOS 系统文件
+.DS_Store
