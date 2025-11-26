@@ -69,13 +69,13 @@ export PV_ACCESS_KEY="你的AccessKey"
 
 当前配置使用中文关键词，需要：
 
-1. **关键词文件**：`.ppn` 文件（例如 `changfei.ppn`）
+1. **关键词文件**：`.ppn` 文件（例如 `rock.ppn`）
 2. **模型文件**：`porcupine_params_zh.pv`（中文模型）
 
 配置文件位置：`listen_rock.py`
 
 ```python
-KEYWORD_FILES = ["changfei.ppn"]  # 你的中文关键词文件
+KEYWORD_FILES = ["rock.ppn"]  # 你的中文关键词文件
 MODEL_PATH = os.environ.get("PV_MODEL_PATH", "porcupine_params_zh.pv")  # 中文模型
 ```
 
