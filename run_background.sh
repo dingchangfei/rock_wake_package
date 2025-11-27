@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 echo "Starting in background with nohup..."
-nohup python3 listen_rock.py --no-headphone-check > /tmp/rockwake_nohup.out 2>&1 &
+nohup python3 listen_rock.py > /tmp/rockwake_nohup.out 2>&1 &
 
 PID=$!
 echo "Process started with PID: $PID"
